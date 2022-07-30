@@ -1,0 +1,29 @@
+
+
+.header {
+    height: 50px;
+    background-color: #112d4e;
+}
+
+.logo {
+    height: 100px;
+    vertical-align: middle;
+    /* opacity:0.5; */
+}
+
+.logo:hover {
+    box-shadow: 0 0 2px 1px green;
+}
+
+.homeLogo {
+    text-align: left;
+}
+
+.profileLogo{
+    text-align: right;
+}
+
+.account {
+        width: auto;
+        height: 10%;
+}

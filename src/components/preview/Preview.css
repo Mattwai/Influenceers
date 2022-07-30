@@ -1,0 +1,21 @@
+.preview {
+    height: 350px;
+    background-color: #DBE2EF;
+
+    
+}
+
+.trends {
+    text-align: left;
+}
+
+.promoImg {
+    height: 350px;
+    width: 1080px;
+
+}
+
+.promo {
+    text-align: right;
+    height: 100px;
+}
