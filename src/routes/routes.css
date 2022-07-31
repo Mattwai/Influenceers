@@ -1,0 +1,79 @@
+.busiProfile{
+    width: 925px;
+        height: auto;
+        margin-left: -17px;
+        margin-right: -11px;
+        margin-top: 17px;
+}
+
+.busiProfileBody {
+        background-color: #aa6373;
+            margin-left: -17px;
+            margin-right: -17px;
+            margin-top: -16px;
+            height: 1000px;
+}
+
+.profile1 {
+    width: 925px;
+        height: auto;
+        margin-left: -17px;
+        margin-right: -11px;
+        margin-top: 17px;
+}
+
+.profileBody{
+    background-color: #aa6373;
+    margin-left: -17px;
+    margin-right: -17px;
+    margin-top: -16px;
+    height: 1000px;
+    /* background-image: url("../pages/creatorProfile.png"); */
+}
+
+.food {
+    width: 1350px;
+    height: auto;
+    margin-top: -17px;
+    margin-left: -70px;
+}
+
+.foodBody {
+    background-color: #aa6373;
+    margin-left: -17px;
+    margin-right: -17px;
+    height: 1000px;
+}
+
+.settings {
+    width: 925px;
+    height: auto;
+    margin-left: -17px;
+    margin-right: -11px;
+    margin-top: 17px;
+
+}
+
+.settingsBody {
+    background-color: #aa6373;
+    margin-left: -17px;
+    margin-right: -17px;
+    margin-top: -16px;
+    height: 1000px;
+}
+
+.purchase {
+    height: auto;
+    width: 192px;
+    position: absolute;
+    top:220px;
+    left:563px;
+}
+
+.purchase:hover {
+    transform: scale(1.02);
+}
+
+.popupButton{
+   color: #aa6373;
+}

@@ -3,27 +3,33 @@
 .header {
     height: 50px;
     background-color: #112d4e;
-}
 
-.logo {
-    height: 100px;
-    vertical-align: middle;
-    /* opacity:0.5; */
-}
-
-.logo:hover {
-    box-shadow: 0 0 2px 1px green;
 }
 
 .homeLogo {
-    text-align: left;
+    display: block;
 }
 
-.profileLogo{
-    text-align: right;
+.logo {
+    margin-top: 7px;
+    margin-left: 10px;
 }
 
-.account {
+.logo:hover {
+    box-shadow: 0 0 2px 1px #aa6373;
+}
+
+.accountLogo {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    width: auto;
+    height: 30px;
+}
+.options {
+        float: right;
+        margin-right: 30px;
+        margin-top: 10px;
         width: auto;
-        height: 10%;
+        height: 30px;
 }

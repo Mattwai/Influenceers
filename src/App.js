@@ -8,6 +8,7 @@ import Food from "./routes/Food";
 import Toys from "./routes/Toys";
 import Profile1 from "./routes/Profile1";
 import BusiProfile from "./routes/BusiProfile";
+import Options from "./routes/Options";
 
 function App() {
   // const [state, setState] = useState();
@@ -24,6 +25,7 @@ function App() {
           <Route path="/Food" element={<Food />} />
           <Route path="/Profile1" element={<Profile1 />} />
           <Route path="/BusiProfile" element={<BusiProfile />} />
+          <Route path="/Options" element={<Options />} />
         </Routes>
       </div>
     </div>

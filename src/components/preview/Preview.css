@@ -1,7 +1,8 @@
 .preview {
     height: 350px;
     background-color: #DBE2EF;
-
+    margin-top: -10px;
+    margin-left: -10px;
     
 }
 

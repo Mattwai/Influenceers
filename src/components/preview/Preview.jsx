@@ -1,7 +1,7 @@
 import React from "react";
 import previewStyle from "./Preview.css";
 import trending from "../../images/trending.png";
-import promoImg from "../../images/promoBanner.png";
+import promoImg from "../../images/promo.gif";
 
 export default function Preview() {
   return (
