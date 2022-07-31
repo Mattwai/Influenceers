@@ -1,73 +1,51 @@
 .busiProfile{
-    width: 925px;
-        height: auto;
-        margin-left: -17px;
-        margin-right: -11px;
-        margin-top: 17px;
+    width: 90vw;
+    height: auto;
 }
 
 .busiProfileBody {
-        background-color: #aa6373;
-            margin-left: -17px;
-            margin-right: -17px;
-            margin-top: -16px;
-            height: 1000px;
+    background-color: #aa6373;
+    height: 150vh;
+    width: auto;
 }
 
 .profile1 {
-    width: 925px;
-        height: auto;
-        margin-left: -17px;
-        margin-right: -11px;
-        margin-top: 17px;
+    width: 90vw;
+    height: auto;
 }
 
 .profileBody{
     background-color: #aa6373;
-    margin-left: -17px;
-    margin-right: -17px;
-    margin-top: -16px;
-    height: 1000px;
-    /* background-image: url("../pages/creatorProfile.png"); */
+    height: 150vh;
+    width: auto;
 }
 
 .food {
-    width: 1350px;
+    width: 95vw;
     height: auto;
-    margin-top: -17px;
-    margin-left: -70px;
 }
 
 .foodBody {
     background-color: #aa6373;
-    margin-left: -17px;
-    margin-right: -17px;
-    height: 1000px;
 }
 
 .settings {
-    width: 925px;
+    width: 80vw;
     height: auto;
-    margin-left: -17px;
-    margin-right: -11px;
-    margin-top: 17px;
-
+    margin-top: 5vh;
 }
 
 .settingsBody {
     background-color: #aa6373;
-    margin-left: -17px;
-    margin-right: -17px;
-    margin-top: -16px;
-    height: 1000px;
 }
 
 .purchase {
     height: auto;
-    width: 192px;
+    width: 239px;
     position: absolute;
-    top:220px;
-    left:563px;
+    top:227px;
+    left:551px;
+    cursor: pointer;
 }
 
 .purchase:hover {
@@ -76,4 +54,90 @@
 
 .popupButton{
    color: #aa6373;
+}
+
+.messagesContainer {
+    overflow-y: scroll;
+    height: 71vh;
+}
+
+.messages {
+    height: auto;
+    width: 70%;
+    margin: 1% 15% 0 15%;
+    /* position: absolute;
+    left: 400px;
+    top: 90px; */
+}
+
+.chatSideContainer {
+    overflow-y: scroll;
+    height: 85vh;
+    cursor: pointer;
+}
+
+.chatSide {
+    height: auto;
+    width: 100%;
+    /* position:absolute;
+    left: 0px;
+    top: 90px; */
+}
+
+.messageBody {
+    background-color: #E9D2F4;
+    overflow: hidden;
+    
+}
+
+.textbox {
+    height: 15vh;
+    padding-top: 20px;
+    /* position: absolute;
+    bottom: 0px;
+    left: 700px; */
+}
+
+.messageInput {
+    margin: 1%;
+    width: 70%;
+    height: 6vh;
+    border-radius: 15px;
+    padding-left: 1.5%;
+}
+
+.messageSubmit {
+    margin: 1%;
+    height: 6vh;
+    width: 15%;
+    border-radius: 15px;
+}
+
+.messageSubmit:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.thanks {
+    width: 11.5%;
+    margin-right: 15%;
+    transition: opacity .1.25s ease-in-out;
+    
+}
+
+.thanksContainer {
+    text-align: right;
+}
+
+.profile1Icon {
+    height: auto;
+    width: 270px;
+    position: absolute;
+    top: 235px;
+    left: 882px;
+    cursor: pointer;
+}
+
+.profile1Icon:hover {
+    transform: scale(1.02);
 }

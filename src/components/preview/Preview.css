@@ -1,22 +1,8 @@
 .preview {
     height: 350px;
     background-color: #DBE2EF;
-    margin-top: -10px;
-    margin-left: -10px;
     
 }
-
-.trends {
-    text-align: left;
-}
-
-.promoImg {
-    height: 350px;
-    width: 1080px;
-
-}
-
 .promo {
-    text-align: right;
-    height: 100px;
+    margin-top: 1vh;
 }

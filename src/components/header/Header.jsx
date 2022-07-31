@@ -3,6 +3,7 @@ import headerStyle from "./Header.css";
 import logo from "../../images/logo.png";
 import accountLogo from "../../images/account.png";
 import menu from "../../images/menu.png";
+import message from "../../images/messageIcon.png";
 import { Link } from "react-router-dom";
 
 export default function Header() {
@@ -14,6 +15,9 @@ export default function Header() {
         </Link>
         <Link to="/Options" className="optionsIcon">
           <img src={menu} className="options" />
+        </Link>
+        <Link to="/Message" className="MessageIcon">
+          <img src={message} className="messagesIcon" />
         </Link>
         <Link to="/BusiProfile" className="profileLogo">
           <img src={accountLogo} className="accountLogo" />
