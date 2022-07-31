@@ -5,8 +5,9 @@
 
 .busiProfileBody {
     background-color: #aa6373;
-    height: 150vh;
+    height: 170vh;
     width: auto;
+    list-style-type: none;
 }
 
 .profile1 {
@@ -33,6 +34,7 @@
     width: 80vw;
     height: auto;
     margin-top: 5vh;
+    margin-bottom: 10vh;
 }
 
 .settingsBody {
@@ -136,6 +138,7 @@
     top: 235px;
     left: 882px;
     cursor: pointer;
+
 }
 
 .profile1Icon:hover {

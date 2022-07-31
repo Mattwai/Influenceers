@@ -10,6 +10,7 @@ import Profile1 from "./routes/Profile1";
 import BusiProfile from "./routes/BusiProfile";
 import Options from "./routes/Options";
 import Message from "./routes/Message";
+import Footer from "./components/footer/Footer";
 
 function App() {
   // const [state, setState] = useState();
@@ -30,6 +31,7 @@ function App() {
           <Route path="/Message" element={<Message />} />
         </Routes>
       </div>
+      <Footer />
     </div>
   );
 }

@@ -32,7 +32,7 @@ export default function Profile1() {
           title="Photo: 1 Post"
         >
           <h2>$100</h2>
-          <h3>Click comfirm to purchase:</h3>
+          <h3>Click comfirm to request:</h3>
           <button
             disabled={isConfettiAnimating || isBalloonsAnimating}
             onClick={() => {
